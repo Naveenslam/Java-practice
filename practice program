@@ -3,9 +3,9 @@ Return true if we sleep in.
 
 public boolean sleepIn(boolean weekday , boolean vacation)
 {
-if(!weekday || vacation){
+if(!weekday || vacation){   //if condition for not equal weekday or vacation 
 
-return true;
+return true; 
 }
 return false;
 }
